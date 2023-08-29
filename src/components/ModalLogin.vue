@@ -16,7 +16,7 @@ export default {
 <template>
   <div
     v-if="showModalLogin"
-    class="absolute flex justify-center items-center backdrop-blur-sm top-0 right-0 -left-0 -bottom-0"
+    class="absolute flex justify-center items-center backdrop-blur-sm top-0 right-0 -left-0 -bottom-0 z-50"
   >
     <div class="w-72 h-72 border-2 grid items-center mx-8 bg-white rounded-md">
       <form class="mx-5">

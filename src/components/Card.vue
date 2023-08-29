@@ -11,7 +11,7 @@ export default {
 
 <template>
   <div
-    class="text-white w-28 lg:w-56 md:w-44 xl:w-44 scale-75 hover:scale-100 duration-300"
+    class="text-white w-28 lg:w-56 md:w-44 xl:w-44 scale-75 hover:scale-90 duration-300"
   >
     <img class="object-cover rounded-t-md h-48 lg:h-96" :src="img" alt="" />
     <p>{{ title }}</p>
